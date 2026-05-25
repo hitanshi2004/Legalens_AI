@@ -70,7 +70,7 @@ def handle_chat_inquiry():
 
     try:
         from google import genai
-        chat_client = genai.Client(api_key="AIzaSyC2Uj70hq6yhS7hPgm0YorY1Us8X0_Gksg")
+        chat_client = genai.Client(api_key="API_KEY")
         
         system_context_prompt = f"""
         You are an expert legal assistant inside LegaLens AI.
