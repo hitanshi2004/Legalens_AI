@@ -7,7 +7,7 @@ from google.genai import types
 import json
 
 # Initializing using your fresh, verified API key
-client = genai.Client(api_key="AIzaSyC2Uj70hq6yhS7hPgm0YorY1Us8X0_Gksg")
+client = genai.Client(api_key="API_KEY")
 
 def analyze_document_with_gemini(document_text):
     try:
